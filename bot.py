@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from telegram.ext import ApplicationBuilder, MessageHandler, filters
 import schwabdev
 from quotes import get_quotes_as_string
+from movers import get_market_movers
 
 # Load .env variables
 load_dotenv()
